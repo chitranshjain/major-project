@@ -1,0 +1,46 @@
+* {
+  width: 350px;
+}
+h2 {
+  color: rgb(9, 116, 148);
+  text-align: center;
+}
+
+h3 {
+  color: black;
+}
+
+.heading {
+  background-color: rgb(9, 116, 148);
+  padding: 20px;
+  text-align: center;
+  color: rgb(9, 116, 148);
+}
+.complete_form {
+  border: 8px rgb(228, 17, 17);
+  border-radius: 20px;
+  padding: 70px;
+  margin: 40px;
+  background-color: rgba(129, 168, 216, 0.648);
+}
+.form {
+  background-color: rgb(9, 116, 148);
+}
+
+input[type="text"] {
+  width: 100%;
+}
+input[type="submit"] {
+  padding: 12px 20px;
+  background-color: rgb(9, 116, 148);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #09747983;
+}
+
+input[type="text"] {
+  color: white;
+}
